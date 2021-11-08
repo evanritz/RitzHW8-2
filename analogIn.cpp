@@ -20,7 +20,7 @@ using namespace std;
 AnalogIn::AnalogIn() {}
 
 AnalogIn::AnalogIn(unsigned int n) {
-    number = n;
+    setNumber(n);
 }
 
 void AnalogIn::setNumber(unsigned int n) {
